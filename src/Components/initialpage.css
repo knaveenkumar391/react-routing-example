@@ -1,0 +1,148 @@
+.login-background-mainDiv{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background-color: #b7e5de;
+}
+.login-boxDiv {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    /* border: 1px solid white; */
+    width: 1050px;
+    height: 530px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 10px 10px  50px gray;  
+  }
+  .left-part-login{
+    display: flex;
+    flex-direction: column;
+    background-color: #60c2b4;
+    width:60%;
+    margin: 15px;
+    border-radius: 20px;
+  }
+  .left-part-content{
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  .left-part-headding{
+    color: white;
+  }
+  .left-part-subContent{
+    font-size: 14px;
+    font-weight: 650;
+    margin-top: 60px;
+    opacity: 0.6;
+  }
+  .right-part-login{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 15px 15px 15px 0px;
+  }
+  /* .login-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .headder-G-btn{
+    background-color:transparent;
+    width :290px; 
+    height:40px;
+    font-weight:700;
+    font-size:16;
+    border-radius: 5px;
+    border: 1px solid #60c2b4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .g-logo{
+    margin: 0px;
+    height: 20px;
+    width:20px;
+  }
+  .p-logo{
+    font-size: 16px;
+    margin: 0px 0px 0px 10px;
+  }
+  .login-input-area{
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+  .p-tag-input{
+    font-weight: 700;
+    margin: 20px 0px 4px 0px;
+    opacity: 0.9;
+  }
+  .input-box-username{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: grey;
+    padding-left: 5px;
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .input-box-password{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: grey;
+    padding-left: 5px;
+    padding-right: 35px;
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .password-toggle-icon {
+    transform: translateY(-265%) translateX(90%);
+    cursor: pointer;
+  }
+  .forgot-pass-p-tag{
+    display: flex;
+    margin-top: 0px;
+    color: #60c2b4;
+    font-weight: 700;
+    justify-content: end;
+  }
+  .forgot-pass-p-tag:hover{
+    color: green;
+    cursor: pointer;
+  }
+  .login-btn{
+    border: none;
+    height: 30px;
+    background-color:#60c2b4 ;
+    width: 100%;
+    border-radius: 5px;
+    
+    font-size: 16px;
+    font-weight: 650;
+  }
+  .login-btn:hover{
+    background-color: #b7e5de;
+    cursor: pointer;
+  }
+  .p-content-sign-up{
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+    justify-content: end;
+  }
+  .sign-up-ptag{
+    color: #60c2b4;
+    font-weight: 600;
+    margin-left: 5px;
+  }
+  .sign-up-ptag:hover{
+    color:green ;
+    cursor: pointer;
+  } */
