@@ -95,21 +95,6 @@ const regBtnDesabled=()=>{
             login here..
           </p>
         </div>
-        
-        {/* <div className="reg-next-main">
-          <h5 className="reg-next">
-            Next{" "}
-            <GrLinkNext
-              size={15}
-              style={{
-                marginTop: 3,
-                marginLeft: 5,
-                opacity: 0.8,
-                color: "green",
-              }}
-            />
-          </h5>
-        </div> */}
       </div>
     </div>
   );

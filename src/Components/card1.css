@@ -1,0 +1,23 @@
+/* .card-main-div{
+    width: 98%;
+    min-height: 110px;
+} */
+.card-main-grid{
+    padding: 20px;
+    /* background-color: aquamarine; */
+}
+.card-headding-typography{
+    font-size: 28px !important;
+    font-weight: 500 !important;
+
+}
+.sub-headding-main{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+}
+.sub-typography{
+    font-size: 18px  !important;
+} 
