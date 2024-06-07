@@ -3,9 +3,11 @@ import '../Components/login.css'
 import glogo from "../Assets/images.png";
 import { GoEye } from "react-icons/go";
 import { GrLinkNext } from "react-icons/gr";
+import { Link, useNavigate } from "react-router-dom";
 
 function Login(props) {
 const {navigateFunc}=props;
+const navigate = useNavigate();
 
 const [data, setData]=useState({});
 const  [apiResponseSts, setApiRepsonseSts] = useState({
@@ -14,6 +16,8 @@ const  [apiResponseSts, setApiRepsonseSts] = useState({
 })
 
 const handleLoginClick =() =>{
+  // navigate("/dashboard");
+
 // method-1  using async and await of post method
   // const response = await fetch('http://192.168.0.101:3002/api/user/login',
   // {
@@ -28,7 +32,7 @@ const handleLoginClick =() =>{
 
 // method-2 without async await
 setApiRepsonseSts({...apiResponseSts,message: 'Loading...'})
-fetch('http://192.168.0.101:3002/api/user/login',
+fetch('http://192.168.0.104:3002/api/user/login',
   {
     method:'POST',
     headers: {
@@ -41,6 +45,9 @@ fetch('http://192.168.0.101:3002/api/user/login',
       setApiRepsonseSts({...apiResponseSts,message: response.error, status: false})
     } else if(response.status === 'ok'){
       setApiRepsonseSts({...apiResponseSts,message: 'Login Successful', status: true})
+      
+      navigate("/dashboard");
+      
     }
     console.log('Response:',response)
   })

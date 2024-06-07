@@ -1,0 +1,101 @@
+.header-menu-left {
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.header-menu-middle {
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.header-menu-right {
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.menu-icon {
+  height: 100%;
+  border-right: 2.5px solid #f0f1f2;
+  justify-content: center;
+  align-items: center;
+  padding-right: 0px;
+}
+.typography-menu-icon {
+  padding-left: 10px;
+  font-size: 18px !important;
+}
+
+.wrk-day-logo {
+  height: 28px;
+  width: 28px;
+  padding-top: 2px;
+}
+/* .search-bar{
+    width: 75%;
+    border-bottom-left-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    background-color: #f0f1f2 !important;
+} */
+.search-input-filed {
+  border-radius: 25px !important;
+  justify-content: center;
+  width: 68%;
+  height: 70%;
+  background-color: #f0f1f2 !important;
+}
+.logo-grid {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.right-icons {
+  padding-right: 20px;
+}
+.main-image {
+  width: 100vw;
+  height: 30vh;
+}
+.main-content-grid {
+  background-color: #f0f1f2;
+}
+.content-left-header {
+  align-items: end;
+  height: 40px;
+}
+.content-right-header {
+  align-items: end;
+  padding-bottom: 4px;
+
+}
+.left-hedder-typ{
+ font-weight: 750 !important;
+ font-size: 28px !important;
+}
+.right-header-typ{
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: #8c8d8f;
+}
+.card-logo{
+ font-size: 45px !important;
+ padding:10px !important;
+ fill: #63a8ec !important;
+}
+
+.card-con:hover{
+  border-radius: 10px;
+  background-color: #d9dbdd;
+}
+.link-icon{
+  font-size: 19px !important;
+  margin-right: 5px;
+  margin-left: 15px;
+  fill: #1976d2 !important;
+  
+}
+.link-apps:hover{
+  cursor: pointer;
+   color: #9cc6f0;
+}
