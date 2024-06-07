@@ -1,10 +1,17 @@
-import Login from './Components/InitialPage';
-import Registrationpage from '../src/Components/Registrationpage';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import InitialPage from "./Components/InitialPage";
+import Dashboard from "./Components/Dashboard"
 
 function App() {
   return (
     <div>
-      <Login/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<InitialPage />}/>
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Routes>
+      </BrowserRouter>
+      {/* <Login /> */}
       {/* <Registrationpage/> */}
     </div>
   );
